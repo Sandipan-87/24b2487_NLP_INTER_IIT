@@ -1,0 +1,13 @@
+vocab_name: "bert-base-uncased"   # tokenizer & vocab (HuggingFace)
+max_seq_len: 64
+hidden_size: 128
+num_layers: 1
+num_heads: 2
+ffn_dim: 512
+dropout: 0.1
+batch_size: 16
+epochs: 1
+lr: 0.0001
+mask_prob: 0.15
+device: "cuda"   # or "cpu"
+seed: 42
